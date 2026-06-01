@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalimanov Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --cyan: #00d2ff; --dark: #050a1a; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-image: linear-gradient(rgba(5, 10, 26, 0.7), rgba(5, 10, 26, 0.7)), url('IMG_20260509_010427_459.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: var(--dark);
+            color: white;
+            font-family: 'Rajdhani', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Стилі для модального вікна */
+        .modal {
+            display: flex;
+            position: fixed;
+            z-index: 1000;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.85);
+            justify-content: center; align-items: center;
+        }
+        .modal-content {
+            background-color: var(--dark);
+            padding: 25px;
+            border: 2px solid var(--cyan);
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 0 20px var(--cyan);
+            width: 85%;
+            max-width: 320px;
+        }
+        .modal-content h2 { font-family: 'Orbitron', sans-serif; margin-bottom: 10px; font-size: 1.2em; }
+        .modal-content button {
+            background-color: var(--cyan);
+            color: black;
+            border: none;
+            padding: 10px 25px;
+            margin-top: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        /* Стилі для банера в контейнері */
+        .promo-banner {
+            background: rgba(0, 210, 255, 0.1);
+            border: 1px solid var(--cyan);
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 0.85em;
+            line-height: 1.4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            padding: 30px;
+            background: rgba(5, 10, 30, 0.85);
+            border: 1px solid var(--cyan);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+        h1 { font-family: 'Orbitron', sans-serif; color: var(--cyan); margin-bottom: 30px; text-transform: uppercase; letter-spacing: 2px; }
+        .btn {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 210, 255, 0.3);
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+        .btn:hover { background: rgba(0, 210, 255, 0.2); transform: translateY(-3px); }
+        .btn i { margin-right: 15px; color: var(--cyan); font-size: 20px; width: 25px; }
+    </style>
+</head>
+<body>
+
+    <div id="welcome-modal" class="modal">
+        <div class="modal-content">
+            <h2 style="color: var(--cyan);">ПРОМОКОД</h2>
+            <p>Вводь при реєстрації: <br>
+               <span style="font-size: 1.6em; font-weight: 900; color: white;">#kalimanov</span>
+            </p>
+            <button onclick="closeModal()">ЗРОЗУМІЛО</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Kalimanov Space</h1>
+
+        <div class="promo-banner">
+            Найкращий промокод <strong style="color: var(--cyan);">#kalimanov</strong><br>
+            дає <span style="color: var(--cyan);">15.000₴</span> та <span style="color: var(--cyan);">2 EXP</span> на старті!
+        </div>
+
+        <div class="links">
+            <a href="https://ua-online.games/" class="btn" target="_blank">
+                <i class="fas fa-gamepad"></i> <span>UA ONLINE</span>
+            </a>
+            <a href="https://t.me/KKalimanov" class="btn" target="_blank">
+                <i class="fab fa-telegram"></i> <span>Telegram</span>
+            </a>
+            <a href="https://youtube.com/@kalimanov" class="btn" target="_blank">
+                <i class="fab fa-youtube"></i> <span>YouTube</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function closeModal() {
+            document.getElementById('welcome-modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+
