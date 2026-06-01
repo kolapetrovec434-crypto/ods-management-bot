@@ -1,0 +1,8 @@
+.env
+*.db
+.git-credentials
+.gitconfig
+.npm/
+.ssh/
+.cache/
+__pycache__/
