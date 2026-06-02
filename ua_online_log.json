@@ -47,5 +47,222 @@
     "action": "claim_approve",
     "target": "7190377907",
     "details": "10"
+  },
+  {
+    "ts": "2026-06-02T02:27:46.135596",
+    "actor": 1188859918,
+    "action": "reject_claim",
+    "target": "1188859918",
+    "details": "Губа дура"
+  },
+  {
+    "ts": "2026-06-02T15:25:41.834550",
+    "actor": 1188859918,
+    "action": "promote",
+    "target": "7190377907",
+    "details": "Стажер → Модератор"
+  },
+  {
+    "ts": "2026-06-02T15:28:14.671109",
+    "actor": 1188859918,
+    "action": "claim_approve",
+    "target": "7190377907",
+    "details": "100"
+  },
+  {
+    "ts": "2026-06-02T15:48:41.851511",
+    "actor": 1188859918,
+    "action": "claim_approve",
+    "target": "1403975635",
+    "details": "1200"
+  },
+  {
+    "ts": "2026-06-02T16:24:46.306346",
+    "actor": 1188859918,
+    "action": "shop_buy",
+    "target": null,
+    "details": "Куплено Унікальний тег [⭐ VIP]"
+  },
+  {
+    "ts": "2026-06-02T21:27:19.815338",
+    "actor": 1188859918,
+    "action": "shop_edit",
+    "target": null,
+    "details": "remove_warning.cooldown=0"
+  },
+  {
+    "ts": "2026-06-02T23:02:06.957264",
+    "actor": 1188859918,
+    "action": "promo_approve",
+    "target": "7190377907",
+    "details": "2"
+  },
+  {
+    "ts": "2026-06-02T23:02:14.199367",
+    "actor": 1188859918,
+    "action": "bp_approve",
+    "target": "1188859918",
+    "details": "claim=1"
+  },
+  {
+    "ts": "2026-06-02T23:03:52.502386",
+    "actor": 1188859918,
+    "action": "vac_reject",
+    "target": "1188859918",
+    "details": "4"
+  },
+  {
+    "ts": "2026-06-02T23:13:46.135627",
+    "actor": 1188859918,
+    "action": "claim_submit",
+    "target": null,
+    "details": "action=mute, count=10"
+  },
+  {
+    "ts": "2026-06-02T23:14:03.479941",
+    "actor": 1188859918,
+    "action": "claim_reject",
+    "target": "1188859918",
+    "details": "6"
+  },
+  {
+    "ts": "2026-06-02T23:42:05.570369",
+    "actor": 1188859918,
+    "action": "claim_submit",
+    "target": null,
+    "details": "claim=7"
+  },
+  {
+    "ts": "2026-06-02T23:44:16.873775",
+    "actor": 1188859918,
+    "action": "shop_edit",
+    "target": null,
+    "details": "promote_mod.price=600"
+  },
+  {
+    "ts": "2026-06-02T23:45:34.746219",
+    "actor": 1188859918,
+    "action": "shop_edit",
+    "target": null,
+    "details": "promote_senior.price=1000"
+  },
+  {
+    "ts": "2026-06-02T23:46:15.861045",
+    "actor": 1188859918,
+    "action": "shop_edit",
+    "target": null,
+    "details": "remove_warning.price=150"
+  },
+  {
+    "ts": "2026-06-02T23:46:36.662011",
+    "actor": 1188859918,
+    "action": "shop_edit",
+    "target": null,
+    "details": "remove_reprimand.price=350"
+  },
+  {
+    "ts": "2026-06-02T23:48:05.146556",
+    "actor": 8048936691,
+    "action": "bp_claim",
+    "target": null,
+    "details": "task=0, claim=2"
+  },
+  {
+    "ts": "2026-06-02T23:48:21.613744",
+    "actor": 8048936691,
+    "action": "claim_submit",
+    "target": null,
+    "details": "claim=8"
+  },
+  {
+    "ts": "2026-06-02T23:48:42.324101",
+    "actor": 1188859918,
+    "action": "claim_approve",
+    "target": "8048936691",
+    "details": "id=8, pts=2500"
+  },
+  {
+    "ts": "2026-06-02T23:48:47.454626",
+    "actor": 1188859918,
+    "action": "bp_approve",
+    "target": "8048936691",
+    "details": "claim=2"
+  },
+  {
+    "ts": "2026-06-02T23:48:57.600595",
+    "actor": 1188859918,
+    "action": "claim_approve",
+    "target": "1188859918",
+    "details": "id=7, pts=9999"
+  },
+  {
+    "ts": "2026-06-02T23:49:22.397082",
+    "actor": 8048936691,
+    "action": "promo_submit",
+    "target": null,
+    "details": "4"
+  },
+  {
+    "ts": "2026-06-02T23:49:40.120866",
+    "actor": 1188859918,
+    "action": "promo_approve",
+    "target": "8048936691",
+    "details": "4"
+  },
+  {
+    "ts": "2026-06-02T23:50:31.400345",
+    "actor": 8048936691,
+    "action": "shop_buy",
+    "target": null,
+    "details": "item=promote_senior"
+  },
+  {
+    "ts": "2026-06-03T00:33:38.680721",
+    "actor": 1188859918,
+    "action": "reputation",
+    "target": "8048936691",
+    "details": ""
+  },
+  {
+    "ts": "2026-06-03T00:34:31.827882",
+    "actor": 1188859918,
+    "action": "warn",
+    "target": "8048936691",
+    "details": "тест"
+  },
+  {
+    "ts": "2026-06-03T00:35:57.767911",
+    "actor": 1188859918,
+    "action": "removepoints",
+    "target": "8048936691",
+    "details": "10009"
+  },
+  {
+    "ts": "2026-06-03T00:36:07.900559",
+    "actor": 1188859918,
+    "action": "removepoints",
+    "target": "8048936691",
+    "details": "1000"
+  },
+  {
+    "ts": "2026-06-03T00:37:19.935224",
+    "actor": 1188859918,
+    "action": "reprimand",
+    "target": "8048936691",
+    "details": "тест"
+  },
+  {
+    "ts": "2026-06-03T00:38:56.388378",
+    "actor": 8048936691,
+    "action": "claim_submit",
+    "target": null,
+    "details": "claim=9"
+  },
+  {
+    "ts": "2026-06-03T00:39:08.356560",
+    "actor": 1188859918,
+    "action": "claim_approve",
+    "target": "8048936691",
+    "details": "id=9, pts=2500"
   }
 ]

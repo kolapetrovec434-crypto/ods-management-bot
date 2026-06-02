@@ -8,9 +8,9 @@
       "sex": "Чоловік",
       "age": "19",
       "role": "Головний модератор",
-      "points": 10108,
-      "xp": 538,
-      "level": 21,
+      "points": 109,
+      "xp": 40,
+      "level": 1,
       "stats": {
         "mutes": 0,
         "bans": 0,
@@ -19,18 +19,14 @@
       },
       "reg_date": "01.06.2026",
       "vacation": null,
-      "bp_tasks_done": [
-        0
-      ],
+      "bp_tasks_done": [],
       "daily_last": "2026-06-02",
-      "weekly_points": 10019,
-      "monthly_points": 10019,
-      "last_active": "2026-06-03T01:05:47.363348",
+      "weekly_points": 20,
+      "monthly_points": 20,
+      "last_active": "2026-06-02T23:00:23.272760",
       "inactivity_warned": false,
       "warnings": 0,
-      "shop_purchases": {
-        "rep_given_8048936691": "2026-06-03T00:33:38.679798"
-      }
+      "shop_purchases": {}
     },
     "1403975635": {
       "nick": "Тестур",
@@ -70,7 +66,7 @@
       "bio": "не бэ, не мэ",
       "sex": "Жінка",
       "age": "55",
-      "role": "Ст. модератор",
+      "role": "Модератор",
       "points": 130,
       "xp": 300,
       "level": 1,
@@ -91,7 +87,7 @@
       "reg_date": "01.06.2026",
       "last_active": "2026-06-02T15:30:00.257140",
       "inactivity_warned": false,
-      "saved_role": "Модератор",
+      "saved_role": "Стажер",
       "weekly_points": 100,
       "monthly_points": 100
     },
@@ -102,12 +98,12 @@
       "bio": "Персонал UA ONLINE",
       "sex": "N/A",
       "age": "N/A",
-      "role": "Модератор",
-      "saved_role": "Молодший Модератор",
-      "points": 2000,
-      "xp": 500,
-      "level": 11,
-      "reputation": 1,
+      "role": "Молодший Модератор",
+      "saved_role": null,
+      "points": 0,
+      "xp": 0,
+      "level": 1,
+      "reputation": 0,
       "stats": {
         "mutes": 0,
         "bans": 0,
@@ -118,37 +114,17 @@
         "kicks": 0
       },
       "achievements": [],
-      "bp_tasks_done": [
-        0
-      ],
+      "bp_tasks_done": [],
       "daily_last": null,
-      "last_active": "2026-06-03T00:58:43.521245",
+      "last_active": "2026-06-02T22:37:00.036033",
       "vacation": null,
       "reprimands": 0,
       "warnings": 0,
-      "weekly_points": 5000,
-      "monthly_points": 5000,
+      "weekly_points": 0,
+      "monthly_points": 0,
       "reg_date": "02.06.2026",
       "inactivity_warned": false,
-      "shop_purchases": {
-        "promote_senior": "2026-06-02T23:50:31.397811"
-      },
-      "warnings_history": [
-        {
-          "by": "1188859918",
-          "by_nick": "Kalimanov",
-          "reason": "тест",
-          "ts": "03.06.2026 00:34"
-        }
-      ],
-      "reprimands_history": [
-        {
-          "by": "1188859918",
-          "by_nick": "Kalimanov",
-          "reason": "тест",
-          "ts": "03.06.2026 00:37"
-        }
-      ]
+      "shop_purchases": {}
     }
   },
   "bp": {
@@ -224,49 +200,6 @@
       "status": "approved",
       "ts": "02.06.2026 15:48",
       "ts_raw": 1780404515.683364
-    },
-    {
-      "id": 6,
-      "uid": "1188859918",
-      "action": "mute",
-      "count": 10,
-      "proof": "N",
-      "photo_id": null,
-      "status": "rejected",
-      "ts": "2026-06-02T23:13:46.045341"
-    },
-    {
-      "id": 7,
-      "uid": "1188859918",
-      "action": "manual",
-      "count": 1,
-      "proof": "/edit_shop",
-      "photo_id": null,
-      "status": "approved",
-      "ts": "2026-06-02T23:42:05.492515",
-      "points_granted": 9999
-    },
-    {
-      "id": 8,
-      "uid": "8048936691",
-      "action": "manual",
-      "count": 1,
-      "proof": "2500",
-      "photo_id": null,
-      "status": "approved",
-      "ts": "2026-06-02T23:48:21.532865",
-      "points_granted": 2500
-    },
-    {
-      "id": 9,
-      "uid": "8048936691",
-      "action": "manual",
-      "count": 1,
-      "proof": "Fjdidijd",
-      "photo_id": "AgACAgIAAyEFAATs8VuKAAIDF2ofTXDDST-vIFC0zP-vx5696qv1AAJ2G2sbe-r5SOFV8kEegiK3AQADAgADeQADOwQ",
-      "status": "approved",
-      "ts": "2026-06-03T00:38:56.304950",
-      "points_granted": 2500
     }
   ],
   "promotions": [
@@ -285,9 +218,8 @@
       "nick": "Katrisa",
       "role": "Стажер",
       "reason": "хорошо себя вела",
-      "status": "approved",
-      "ts": "02.06.2026 00:19",
-      "new_role": "Ст. модератор"
+      "status": "pending",
+      "ts": "02.06.2026 00:19"
     },
     {
       "id": 3,
@@ -298,14 +230,6 @@
       "reason": "хорошо себя вела",
       "status": "approved",
       "ts": "02.06.2026 15:25"
-    },
-    {
-      "id": 4,
-      "uid": "8048936691",
-      "reason": "Так треба",
-      "status": "approved",
-      "ts": "2026-06-02T23:49:22.320056",
-      "new_role": "Модератор"
     }
   ],
   "vacations": [
@@ -343,7 +267,7 @@
       "tag": "@p_mikola",
       "dates": "Jsjs",
       "reason": "Ej",
-      "status": "rejected",
+      "status": "pending",
       "ts": "02.06.2026 00:57"
     }
   ],
@@ -365,19 +289,9 @@
       "task_xp": 500,
       "proof": "Nnn",
       "photo_id": "AgACAgIAAyEFAATs8VuKAAIBgWoeFV_9IzxgmxefZrw3-T7JAXEFAAKhF2sbe-rxSH5uHFktW8feAQADAgADeQADOwQ",
-      "status": "approved",
+      "status": "pending",
       "ts": "02.06.2026 21:07",
       "ts_raw": 1780423649.818641
-    },
-    {
-      "id": 2,
-      "uid": "8048936691",
-      "task_idx": 0,
-      "task_name": "Задача #1",
-      "proof": "Hhh",
-      "photo_id": null,
-      "status": "approved",
-      "ts": "2026-06-02T23:48:05.063308"
     }
   ],
   "punish_claims": [],
@@ -442,25 +356,25 @@
     "items": {
       "promote_mod": {
         "name": "Модератор",
-        "price": 600,
+        "price": 800,
         "cooldown_days": 30,
         "role": "Модератор"
       },
       "promote_senior": {
         "name": "Ст. модератор",
-        "price": 1000,
+        "price": 1500,
         "cooldown_days": 45,
         "role": "Ст. модератор"
       },
       "remove_reprimand": {
         "name": "Зняти 1 догану",
-        "price": 350,
+        "price": 400,
         "cooldown_days": 7,
         "type": "remove_reprimand"
       },
       "remove_warning": {
         "name": "Зняти 1 попередження",
-        "price": 150,
+        "price": 200,
         "cooldown_days": 0,
         "type": "remove_warning",
         "notify_curators": true,
